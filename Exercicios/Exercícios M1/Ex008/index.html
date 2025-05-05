@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de textos</title>
+</head>
+<body>
+    <h1>Principais Formatações</h1>
+    <h2>Negrito/Destaque</h2>
+    <p>Nesta frase temos um <b>Termo em negrito</b> usando a tag <b>&lt;b&gt;</b> (não semântica) <br>Nesta frase temos um <strong>Termo em destaque</strong> usando a tag <strong>&lt;strong&gt;</strong>(semântica)</p>
+    <h2>Itálico/ênfase</h2>
+    <p>Nesta frase temos um <i>Termo em itálico</i> utilizando a tag <strong>&lt;i&gt;</strong> (não semântico)<br>Nesta frase temos um <em>Termo em itálico</em> utilizando a tag <strong>&lt;em&gt;</strong> (semântico)</p><!--em = Emphasis-->
+    <h2>Texto Marcado</h2>
+    <p>Nesta frase temos um <mark>Termo marcado</mark> utilizando a tag <strong>&lt;mark&gt;</strong><br>Aqui temos um <mark style="background-color: aqua;">Termo marcado com cor diferente</mark> utlizando a tag<strong> &lt;mark style="background-color"&gt;</strong> (Utilizando CSS(tag style))
+    (para mudar a cor em todos os "marks" colocar no head do codigo) 
+    <pre><code>
+    &lt;head&gt;   
+        &lt;style&gt;
+           mark { 
+            background-color
+           }
+        &lt;/style&gt;
+    &lt;/head&gt;
+    </code></pre></p>
+    <h2>Grande/Pequeno</h2>
+    <p><big>Nesta frase temos um Texto grande</big> utilizando a <strong>tag obsoleta &lt;big&gt;</strong><br>
+    <small>Nesta frase temos um Texto pequeno</small> utilizando a tag <strong>&lt;small&gt;</strong></p>
+    <h2>Deletado</h2>
+    <p>Nesta frase temos um <del>Termo deletado</del> utilizando a tag <strong>&lt;del&gt;</strong>  (Desconsiderar texto)</p>
+    <h2>Sublinhado</h2>
+    <p>Nesta frase temos um <u>Termo sublinhado</u> utilizando a tag <strong>&lt;u&gt;</strong> (Não semântica)<br>
+    Nesta frase temos um <ins>Termo sublinhado</ins> utilizando a tag <strong>&lt;ins&gt;</strong> (Semântica(para indicar texto inserido depois))
+    </p>
+    <h2>Sobrescrito/Subscrito</h2>
+    <p>Nesta frase temos um <sup>Termo sobrescrito</sup> utilizando a tag <strong>&lt;sup&gt;</strong><br>
+    Nesta frase temos um <sub>Termo subscrito</sub> utilizando a tag <strong>&lt;sub&gt;</strong><br><pre>Exemplos:
+    
+ H<sub>2</sub>O
+
+ 2<sup>4</sup>=16
+    </pre></p>
+</body>
+</html>
